@@ -1,0 +1,80 @@
+$fonts: 'Poppins', Helvertica, sans-serif;
+$primary-color: #ab99ca;
+$spacing: 2rem;
+$font-color: white;
+$background-color: #0D4A4F;
+$color: #ece0ce;
+
+.container{
+    background-color: $background-color;
+    color: $font-color;
+    height: 100vh;
+    
+}
+
+.header{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.action_header{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1em;
+    .item{
+        font-size: 12px;
+        margin: 0 0.5em;
+        color: $color;
+    }
+    .item:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .menu{
+        display: flex;
+        list-style: none;
+    }
+}
+
+ 
+
+.tab_header{
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+    .tab_menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    }
+
+    .item{
+        font-weight: 500;
+        transition: all .2s ease-out;
+        text-decoration-color: transparent;
+        
+    }
+    .item:hover{
+        cursor: pointer;
+        text-decoration-color: white;
+        text-decoration: underline;
+        text-underline-offset: 7px;
+        text-decoration-thickness: 2px;
+    }
+
+    .logo{
+        font-size: x-large;
+        font-weight: 600;
+    }
+    .button{
+       background-color: rgb(255, 255, 203);
+       color: $background-color;
+       font-weight: 600;
+       padding: 20px  0;
+    }
+}
