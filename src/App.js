@@ -21,7 +21,7 @@ function App() {
       <h1>HEY YOU</h1>
       <div style={{ display: 'flex' }}>
         <button className='button-87' onClick={() => alert("Có chắc yêu là đây")}>LOVE</button>
-        <button className='button-87' style={{ padding: '1em 4em 1em 4em', fontSize: '14px', position: 'absolute', top: top, left: left }} onClick={handleHover} onMouseLeave={() => { }} onMouseOver={handleHover}>OH NO</button>
+        <button className='button-87' style={{ fontSize: '14px', position: top ? 'absolute' : 'unset', top: top, left: left }} onClick={handleHover} onMouseLeave={() => { }} onMouseOver={handleHover}>OH NO</button>
       </div>
     </div>
   );
